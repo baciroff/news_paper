@@ -16,6 +16,7 @@ class Category(models.Model):
 
 
 class Post(models.Model):
+    objects = None
     article = 'a'
     news = 'n'
 
